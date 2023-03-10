@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             new PublicKey('5vAePzYrFQgtcCf9vgxfesuGKtXrVmsyc3QAA7maSMpM'),
             publicKey,
             new PublicKey('8oKYV7zrqjaPZkBDaBkuKKzPa9cFSsiKMiSbh18QAEN3'),
-            new PublicKey('AR5phjwzdmuV4BpZWpoHdMULseSYMCxKhrZeqE8w3TA7'),
+            new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
             'Change Governance Config',
             '',
             new PublicKey('DnfFn1WRrANrcUvXmgrYZzPyUkGXgcmji8aWC3H6pS2R'),
@@ -51,6 +51,7 @@ const Home: NextPage = () => {
         })
 
         console.log(proposalInstructions)
+
         await withCastVote(
             proposalInstructions,
             new PublicKey('GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw'),
@@ -58,8 +59,8 @@ const Home: NextPage = () => {
             new PublicKey('5vAePzYrFQgtcCf9vgxfesuGKtXrVmsyc3QAA7maSMpM'),
             new PublicKey('8oKYV7zrqjaPZkBDaBkuKKzPa9cFSsiKMiSbh18QAEN3'),
             proposalAddress,
-            new PublicKey('ELRCgd2m383WUkynVWiCxAHr85fnEAMP7var5oNyi4jB'),
-            new PublicKey('ELRCgd2m383WUkynVWiCxAHr85fnEAMP7var5oNyi4jB'),
+            new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
+            new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
             publicKey,
             new PublicKey('DnfFn1WRrANrcUvXmgrYZzPyUkGXgcmji8aWC3H6pS2R'),
             vote,
@@ -67,8 +68,7 @@ const Home: NextPage = () => {
             undefined,
             undefined,
         )
-
-        // 8ixmy...
+        
         await withCastVote(
             proposalInstructions,
             new PublicKey('GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw'),
@@ -76,8 +76,8 @@ const Home: NextPage = () => {
             new PublicKey('5vAePzYrFQgtcCf9vgxfesuGKtXrVmsyc3QAA7maSMpM'),
             new PublicKey('8oKYV7zrqjaPZkBDaBkuKKzPa9cFSsiKMiSbh18QAEN3'),
             proposalAddress,
-            new PublicKey('ELRCgd2m383WUkynVWiCxAHr85fnEAMP7var5oNyi4jB'),
             new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
+            new PublicKey('ELRCgd2m383WUkynVWiCxAHr85fnEAMP7var5oNyi4jB'),
             publicKey,
             new PublicKey('DnfFn1WRrANrcUvXmgrYZzPyUkGXgcmji8aWC3H6pS2R'),
             vote,
