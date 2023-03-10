@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         setLabel('Submitting Transaction...')
         const newTransaction = new Transaction();
         const connection = new Connection('https://solana-api.syndica.io/access-token/9JBqce4qfAURlDgD4vgOvDF3uqvvDPpq3j38ZvEvSypc8p0PcZ9KMcqWWb6yXrTI/rpc', 'confirmed');
-        const serializedProposalInstruction = '6uQ1ve51tzTNWT7PmjBLgCS6KJhnt2mx+Tynu7iORv4BAAAAc999/jcNa8ku376tfjhCCZ9basdqxQ+87SGcjSsqktABAScAAAATADwAEKXU6AAAAAAAAACA9AMAAAA8ADwBAAAAAAAAAAACAAAAAAo='
+        const serializedProposalInstruction = '6uQ1ve51tzTNWT7PmjBLgCS6KJhnt2mx+Tynu7iORv4BAAAAaYmwfnaQVMpcO6HchVopAUmNxUtyu3XlFFcbLlVYVpIBAScAAAATADwAEKXU6AAAAAAAAACA9AMAAAA8ADwBAAAAAAAAAAACAAAAAAo='
         const proposalInstructionData = new InstructionDataWithHoldUpTime({
             governance: undefined,
             instruction: serializedProposalInstruction
