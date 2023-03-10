@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         const { proposalInstructions, proposalAddress } = await createProposal(
             new PublicKey('5vAePzYrFQgtcCf9vgxfesuGKtXrVmsyc3QAA7maSMpM'),
             publicKey,
-            new PublicKey('8oKYV7zrqjaPZkBDaBkuKKzPa9cFSsiKMiSbh18QAEN3'),
+            new PublicKey('86yaj9ZafwmjMsdBh8S7u79wApY3zBwqs3jVP9cAAGos'),
             new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
             'Change Governance Config',
             '',
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
             new PublicKey('GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw'),
             3,
             new PublicKey('5vAePzYrFQgtcCf9vgxfesuGKtXrVmsyc3QAA7maSMpM'),
-            new PublicKey('8oKYV7zrqjaPZkBDaBkuKKzPa9cFSsiKMiSbh18QAEN3'),
+            new PublicKey('86yaj9ZafwmjMsdBh8S7u79wApY3zBwqs3jVP9cAAGos'),
             proposalAddress,
             new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
             new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
@@ -68,13 +68,13 @@ const Home: NextPage = () => {
             undefined,
             undefined,
         )
-        
+
         await withCastVote(
             proposalInstructions,
             new PublicKey('GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw'),
             3,
             new PublicKey('5vAePzYrFQgtcCf9vgxfesuGKtXrVmsyc3QAA7maSMpM'),
-            new PublicKey('8oKYV7zrqjaPZkBDaBkuKKzPa9cFSsiKMiSbh18QAEN3'),
+            new PublicKey('86yaj9ZafwmjMsdBh8S7u79wApY3zBwqs3jVP9cAAGos'),
             proposalAddress,
             new PublicKey('Hwgfzm6A9MxBYTK4kWJtwpAG45ezefc4uUZ5EsXFrMXg'),
             new PublicKey('ELRCgd2m383WUkynVWiCxAHr85fnEAMP7var5oNyi4jB'),
